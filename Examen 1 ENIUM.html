@@ -6,7 +6,7 @@
     <meta name="author" content="Azahara Gracia Maciá" />
     <meta
       name="description"
-      content="Pagina principal de una empresa de servicios de trading con formulario de suscripción a newsletter"
+      content="Contiene la página principal de una empresa de servicios de trading con formulario de suscripción a newsletter"
     />
     <link rel="stylesheet" href="styles.css" />
     <title>
@@ -22,7 +22,7 @@
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
           <a href="#">Link 4</a>
-          <button>Sign Up</button>
+          <button id="signup">Sign Up</button>
           <button>☰</button>
         </nav>
       </div>
@@ -38,25 +38,32 @@
     </section>
 
     <section class="">
-      <!--Escribe aquí tu código HTML para crear el formulario-->
-      <!-- Join Our Newsletter
+      <div class="formulario">
+        <!--Escribe aquí tu código HTML para crear el formulario-->
+        <!-- Join Our Newsletter
 Subscribe to receive updates, access to exclusive deals, and more.
 Name:
 Email:
 Subscribe-->
-      <form>
-        <fieldset>
-          <legend><h2>Join Our Newsletter</h2></legend>
-          <p>
-            Subscribe to receive updates, access to exclusive deals, and more.
-          </p>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" />
-          <button type="submit">Subscribe</button>
-        </fieldset>
-      </form>
+        <form>
+          <fieldset>
+            <h2>Join Our Newsletter</h2>
+            <p>
+              Subscribe to receive updates, access to exclusive deals, and more.
+            </p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address"
+            />
+            <button type="submit">Subscribe</button>
+          </fieldset>
+        </form>
+      </div>
     </section>
 
     <footer>
